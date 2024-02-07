@@ -1,0 +1,337 @@
+*{ 
+	font-family: Georgia, Times, "Times New Roman", serif; 
+} 
+
+html,body {
+    /* background-color: black; */
+	background-image: url(https://cdn.pixabay.com/photo/2016/03/26/22/51/car-1281697_1280.jpg);
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+.quiz, 
+.scores { 
+	margin: 50px auto 0 auto; 
+	max-width: 400px; 
+} 
+
+#top { 
+	/* color: rgb(2, 64, 88);  */
+	margin-left: -5%;
+	 animation-name: d; 
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+} 
+@keyframes d{
+
+	50%{
+		color: red;
+	}
+}
+h1{
+	color: white;
+	width: 120%;
+}
+
+.containerNew { 
+	/* border: 5px solid white;  */
+	position: absolute; 
+	top: 50%; 
+	left: 30%; 
+	height: 560px; 
+	width: 50%; 
+	transform: translate(-50%, -50%); 
+	padding: 10px; 
+    box-shadow: 1px 1px 10px rgb(172, 133, 133);
+	/* border: 4px solid  rgb(31, 30, 30);  */
+	 animation-name: box;
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+	background-color: rgba(31, 31, 30, 0.397);
+	/* background-image: url(https://st4.depositphotos.com/21923188/23484/i/450/depositphotos_234848232-stock-photo-black-generic-luxury-car-illustration.jpg); */
+	background-size: cover;
+	border-radius: 50px;
+
+} 
+@keyframes box{
+50%{
+
+    box-shadow: 1px 0px 10px rgb(54, 22, 196);
+}
+100%{
+
+    box-shadow: 0px 1px 10px  rgb(255, 127, 21);
+}
+}
+.conta{
+	width: 70%;
+	/* left: 80%; */
+	margin-left: 108%;
+	border-radius: 59px 1px;
+	margin-top: -43%;
+	height: 90vh;
+	position: absolute;
+	background: #000;
+	overflow: auto;
+	
+		
+	
+}
+.v{
+	animation-name: abca;
+	animation-duration: 10s;
+	/* transition: all 20s ease; */
+	/* animation-iteration-count: o; */
+}
+ h6{
+	font-size: 19px;
+	margin-left: 8%;
+	color: #f00000 !important;
+}
+@keyframes abca{
+	0%{
+		margin-top: 105%;
+		
+	}
+	100%{
+		margin-top: 0%;
+	}
+}
+/* width */
+::-webkit-scrollbar {
+	width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555;
+  }
+.conta p{
+	margin-top: 5%;
+	/* font-style: 15px; */
+}
+.para{
+	font-size: 14px;
+	animation-name: sss;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes b {
+	0%{
+		margin-bottom: 55%;
+	}
+	100%{
+		
+	}
+	
+}
+
+h2{
+	color: white;
+}
+
+p { 
+	margin: 5px 15px; 
+	color: white;
+} 
+
+.landing { 
+	text-align: center; 
+	margin-top: -5%;
+} 
+
+.scoresHeader { 
+	position: absolute; 
+	top: 15px; 
+	left: 15px; 
+} 
+
+.timer { 
+	position: absolute; 
+	top: 15px; 
+	right: 15px; 
+	font-weight: bold;
+} 
+
+button { 
+	display: inline-block; 
+	margin: 10px; 
+	cursor: pointer; 
+	color: black; 
+	/* background-color: rgb(6, 66, 90); */
+    font-size: 20px; 
+	border-radius: 5px; 
+	border: 0; 
+	padding: 15px;
+	/* box-shadow: 10px 18px 9px black; */
+	/* animation-name: b;
+	animation-duration: 2s;
+	animation-iteration-count: infinite; */
+} 
+@keyframes b{
+	50%{
+
+	box-shadow: 10px 18px 9px  rgb(31, 30, 30);
+	}
+}
+
+button:hover { 
+	background-color: rgb(255, 65, 65); 
+	color: black;
+} 
+
+.options button { 
+	display: block; 
+} 
+
+input[type="text"] { 
+	font-size: 100%; 
+} 
+
+.hide { 
+	display: none; 
+} 
+
+.feedback { 
+	font-style: bold; 
+	font-size: 120%; 
+	margin-top: 20px; 
+	padding-top: 15px; 
+	color: #fff; 
+	border-top: 2px solid #4B0082; 
+} 
+
+ol { 
+	padding-left: 15px; 
+	max-height: 600px; 
+	overflow: auto; 
+} 
+
+li { 
+	padding: 5px; 
+	list-style: decimal inside none; 
+} 
+
+li:nth-child(odd) { 
+	background-color: #dfdae7; 
+} 
+
+
+
+
+
+/* img{
+	height: 160px;
+	animation-name: i;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+} */
+@keyframes i{
+50%{
+	/* background-color: black; */
+	border-radius: 50px;
+}
+}
+
+@media screen and (max-width: 768px) { 
+	.containerNew { 
+		width: 80%; 
+	} 
+} 
+
+@media screen and (max-width: 575px) { 
+	h2 {
+		margin-left: 5%;
+		font-size: 22px;
+	}
+	.containerNew { 
+		height: 460px;
+		width: 80%;
+		    width: 80%;
+    left: 27% !important;
+		margin-top: -1%;
+		margin-left: 22%;
+	} 
+	h1 {
+		color: white;
+		width: 103%;
+	}
+	
+	.conta {    margin-left: -9%;
+		width: 108%;
+		margin-top: 45%;
+		height: 73vh;
+		/* margin-bottom: 5%; */
+		/* padding-bottom: 4%; */}
+	.quiz, 
+	.scores { 
+		max-width: 90%; 
+	} 
+	 #start {
+		display: inline-block;
+		margin: 10px;
+		cursor: pointer;
+		color: rgb(235, 231, 231);
+		background-color: rgb(201, 37, 37);
+		font-size: 20px;
+		border-radius: 15px;
+		position: absolute;
+		border: 0;
+		left: 22% !important;
+		padding: 15px;
+		box-shadow: 0px 0px 0px black;
+	}
+	h2 {
+		margin-left: 5%;
+	}
+	body{
+		/* background: url(https://e0.pxfuel.com/wallpapers/155/992/desktop-wallpaper-dodge-challenger-mustang-car-background-car-iphone-dodge-burnout.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center; */
+		background: none;
+		margin: 0;
+		padding: 0;
+		/* overflow-x: hidden; */
+	}
+	.bg{
+		height: 180vh;
+		margin: 0;
+		padding: 0;
+		width: 120%;
+		/* overflow-x: hidden !important; */
+		/* background-image: url("https://i.pinimg.com/236x/ec/cd/22/eccd221d8afe5447843f5b9e9e55a065.jpg"); */ 
+		/* background-size: cover	; */
+		/* background-repeat: no-repeat; */
+		background-image: url(https://e0.pxfuel.com/wallpapers/155/992/desktop-wallpaper-dodge-challenger-mustang-car-background-car-iphone-dodge-burnout.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	
+	}
+	.containerNew {
+		left: 25%;
+	}
+	.options button {
+    display: block;
+    width: 251px;
+    font-size: 19px;
+}
+}
+@media (max-width:350px){
+	.options button {
+		display: block;
+		width: 221px;
+		font-size: 19px;
+	}
+}
